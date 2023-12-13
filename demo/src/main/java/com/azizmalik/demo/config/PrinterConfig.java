@@ -1,11 +1,13 @@
 package com.azizmalik.demo.config;
 
-import Services.Implementations.*;
-import Services.iBluePrinter;
-import Services.iColorPrinter;
-import Services.iRedPrinter;
-import Services.iGreenPrinter;
-import org.springframework.beans.factory.annotation.Configurable;
+import com.azizmalik.demo.Services.Implementations.ColorPrinter;
+import com.azizmalik.demo.Services.Implementations.EnglishBluePrinter;
+import com.azizmalik.demo.Services.Implementations.EnglishRedPrinter;
+import com.azizmalik.demo.Services.Implementations.UrduGreenPrinter;
+import com.azizmalik.demo.Services.iBluePrinter;
+import com.azizmalik.demo.Services.iColorPrinter;
+import com.azizmalik.demo.Services.iRedPrinter;
+import com.azizmalik.demo.Services.iGreenPrinter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

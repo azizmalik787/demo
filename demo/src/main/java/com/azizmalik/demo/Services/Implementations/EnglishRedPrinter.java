@@ -1,5 +1,5 @@
-package Services.Implementations;
-import Services.iRedPrinter;
+package com.azizmalik.demo.Services.Implementations;
+import com.azizmalik.demo.Services.iRedPrinter;
 
 public class EnglishRedPrinter implements iRedPrinter{
     @Override

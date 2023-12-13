@@ -1,8 +1,8 @@
-package Services.Implementations;
-import Services.iColorPrinter;
-import Services.iRedPrinter;
-import Services.iBluePrinter;
-import Services.iGreenPrinter;
+package com.azizmalik.demo.Services.Implementations;
+import com.azizmalik.demo.Services.iColorPrinter;
+import com.azizmalik.demo.Services.iRedPrinter;
+import com.azizmalik.demo.Services.iBluePrinter;
+import com.azizmalik.demo.Services.iGreenPrinter;
 
 public class ColorPrinter implements iColorPrinter {
     private iRedPrinter red;

@@ -1,7 +1,6 @@
 package com.azizmalik.demo;
 
-import Services.Implementations.ColorPrinter;
-import Services.iColorPrinter;
+import com.azizmalik.demo.Services.iColorPrinter;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
