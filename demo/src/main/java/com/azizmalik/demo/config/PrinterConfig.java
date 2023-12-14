@@ -13,10 +13,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class PrinterConfig {
-    @Bean
-    public iBluePrinter BluePrinter(){
-        return new EnglishBluePrinter();
-    }
+//    I have removed the iBluePrinter and have used the component instead in that concrete class
     @Bean
     public iRedPrinter RedPrinter(){
         return new EnglishRedPrinter();
